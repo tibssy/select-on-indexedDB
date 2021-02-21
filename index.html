@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body>
+
+    <div class="container mt-3">
+        <form>
+            <select class="custom-select mb-3" id="select1" size="9" onchange="getSelectValue('select1')"></select>
+            <select class="custom-select mb-3" id="select2" size="9" onchange="getSelectValue('select2')"></select>
+        </form>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <p id="rate1"></p>
+            <p id="rate2"></p>
+        </div>
+        <p id="rate3"></p>
+    </div>
+
+
+    <script src="js/config.js"></script>
+</body>
+
+</html>

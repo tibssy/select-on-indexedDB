@@ -1,0 +1,47 @@
+.a {
+    position: relative;
+    width: 90vw;
+    height: 8vh;
+    margin: auto;
+    text-align: center;
+}
+
+#select1 {
+    width: 45vw;
+    margin: auto;
+    text-align: center;
+    font-size: larger;
+}
+
+#select2 {
+    width: 45vw;
+    margin: auto;
+    text-align: center;
+    font-size: larger;
+}
+
+#rate1 {
+    width: 45vw;
+    margin: auto;
+    text-align: center;
+    font-size: larger;
+}
+
+#rate2 {
+    width: 45vw;
+    margin: auto;
+    text-align: center;
+    font-size: larger;
+}
+
+#aa {
+    position: relative;
+    top: 20%;
+    font-size: x-large;
+}
+
+#bb {
+    position: relative;
+    top: 20%;
+    font-size: x-large;
+}
